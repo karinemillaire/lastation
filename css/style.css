@@ -21,29 +21,36 @@ body {
     padding: 0;
     font-family: "Dosis", sans-serif;
     font-size: 18px;
+    background-color: #EEEEEE;
+
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
 }
 
-h1{
+h1 {
     font-size: 50px;
     font-weight: bold;
     color: white;
     text-align: center;
 }
 
-h2{
+h2 {
     font-size: 36px;
     font-weight: bold;
-    color: #0E5EA1 ;
+    color: #0E5EA1;
 }
 
-h3{
+h3 {
     font-size: 24px;
     font-weight: bold;
+}
+
+a:hover {
+    background-color: #0E5EA1;
+    color: white;
 }
 
 /*-------------------------------------------------
@@ -52,9 +59,27 @@ COMPONENTS
 
 /*wrapper*/
 
-.wrapper{
+.wrapper {
     max-width: 1280px;
     margin: 0 auto;
 }
 
+/*header*/
+.header {
+    background-color: white;
+}
 
+.header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    font-size: 16px;
+    font-weight: bold;
+}

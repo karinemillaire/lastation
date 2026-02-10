@@ -67,7 +67,7 @@ COMPONENTS
     background-color: white;
     padding-top: 36px;
     padding-bottom: 36px;
-    
+
 }
 
 .header .wrapper {
@@ -106,4 +106,34 @@ COMPONENTS
     color: white;
     border-radius: 5px;
 
+}
+
+
+/*hero*/
+
+.hero {
+    background-image: url(../images/section.hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 136px;
+    padding-bottom: 136px;
+}
+
+.hero .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 642px;
+    height: 178px;
+}
+
+.content p {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
 }

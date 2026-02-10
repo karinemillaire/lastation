@@ -41,11 +41,15 @@ h2 {
     font-size: 36px;
     font-weight: bold;
     color: #0E5EA1;
+    padding: 0px;
 }
 
 h3 {
     font-size: 24px;
     font-weight: bold;
+    margin: 0px;
+    padding-top: 25px;
+    padding-bottom: 0px;
 }
 
 
@@ -136,4 +140,70 @@ COMPONENTS
     font-weight: bold;
     color: white;
     text-align: center;
+
+}
+
+/*contenu*/
+
+.contenu {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+
+}
+
+.card {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-bottom: 4px solid #0E5EA1;
+
+}
+
+.card p {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+.card a {
+    font-size: 14px;
+    font-weight: bold;
+    align-self: center;
+    margin-top: auto;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.card a:hover {
+    background-color: #0E5EA1;
+    color: white;
+    border-radius: 5px;
+}
+
+/*banner*/
+.banner {
+    padding-bottom: 80px;
+}
+
+/*footer*/
+
+.footer {
+    background-color: black;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.footer p {
+    color: white;
+    text-align: center;
+    font-family: "Roboto", sans-serif; 
 }

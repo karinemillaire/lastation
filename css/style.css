@@ -167,6 +167,7 @@ COMPONENTS
 }
 
 .card p {
+    margin: 0px;
     padding-top: 25px;
     padding-bottom: 25px;
 }
